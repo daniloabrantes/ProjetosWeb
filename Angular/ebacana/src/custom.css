@@ -1,0 +1,151 @@
+body,
+html {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-image: url(./assets/BG.webp);
+}
+
+#header {
+    width: 100%;
+    background-color: #8B4513;
+    transition: all ease-in-out 0.2s;
+}
+
+#header {
+    position: fixed;
+    top: 0%;
+}
+
+#header .navbar-collapse {
+    width: auto;
+    transition: all ease-in-out 0.2s;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #8B4513;
+    font-weight: 750;
+    padding-left: 0;
+    padding-right: 0;
+    color: #e0a972;
+    border-bottom: solid 4px;
+    transition: all ease-in-out 0.2s;
+}
+
+#header .nav-link:hover {
+    border-bottom: solid 4px var(--secundary);
+    color: var(--secundary);
+    background-color: var(--tertiary);
+}
+
+#logo {
+    max-width: 60px;
+    height: auto;
+}
+
+#info .content-img {
+    max-width: 50%;
+    height: auto;
+}
+
+.content-serv {
+    max-width: 65%;
+    height: 70%;
+}
+
+#service .content {
+    opacity: 85%;
+}
+
+#service .content:hover {
+    opacity: 98%;
+}
+
+#fundoIndex {
+    background: url(./assets/fundo.jpeg) no-repeat center;
+    background-size: 100%;
+}
+
+#fundoSobre {
+    background: url(./assets/logoGrande.jpg) no-repeat center;
+    background-size: 100%;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.content {
+    background-color: var(--primary-dark);
+    opacity: 90%;
+}
+
+#slider .content {
+    background-color: var(--primary-dark);
+    opacity: 95%;
+}
+
+#slider .content-img {
+    max-width: 90%;
+    height: auto;
+    opacity: 100%;
+}
+
+#footer ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+#footer ul li a {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    transition: all ease-in-out 0.2s;
+}
+
+#footer ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+    background-color: var(--primary-dark);
+}
+
+#footer ul li img {
+    max-height: 40px;
+}
+
+.opcao {
+    border-style:double;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    border-radius: 25px;
+    border-color: white;
+}
+
+.opcao:hover{
+    background-color: var(--tertiary);
+    transition: all ease-in-out 0.2s;
+}
+
+.opcao-img{
+    max-width: 85%;
+    height: auto;
+    opacity: 100%;
+}

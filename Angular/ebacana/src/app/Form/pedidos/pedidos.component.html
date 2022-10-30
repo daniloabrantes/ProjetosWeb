@@ -1,0 +1,111 @@
+<div id="pedido" class="block">
+  <div class="container content">
+    <div class="row">
+      <div class="col-md-5 text-center align-self-center order-1">
+        <img src="assets/entregador.png" class="img-fluid" />
+      </div>
+
+      <div class="container pt-4 col-12 col-md-6 order-2">
+        <form class="row md-3 align-self-left mg-mt-5">
+          <div class="col-md-12">
+            <label for="inputNome" class="form-label subtit">Nome Completo</label>
+            <input type="text" class="form-control" placeholder="Insira seu Nome" id="inputNome" required="" />
+          </div>
+          <div class="col-6 mt-2">
+            <label for="phone" class="form-label subtit">Telefone</label>
+            <input type="tel" class="form-control"
+              pattern="\+?\d{0,3}[\s\(\-]?([0-9]{2,3})[\s\)\-]?([\s\-]?)([0-9]{3})[\s\-]?([0-9]{2})[\s\-]?([0-9]{2})"
+              placeholder="ex: (19)12345-6789" id="phone" required="" />
+          </div>
+          <div style="margin-top: 35px" class="col-6">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked />
+              <label class="form-check-label subtit" for="flexRadio1">Entrega</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+              <label class="form-check-label subtit" for="flexRadio1">Retirada</label>
+            </div>
+          </div>
+          <div class="col-6 mt-2">
+            <label for="inputAddress2" class="form-label subtit">Endereço</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Insira seu endereço" required="" />
+          </div>
+          <div class="col-6 mt-2">
+            <label for="select" class="form-label subtit">Estado</label>
+            <select class="form-select text-center" required="required">
+              <option disabled selected value="Vazio">---Vazio---</option>
+              <option value="AC">AC</option>
+              <option value="AL">AL</option>
+              <option value="AP">AP</option>
+              <option value="AM">AM</option>
+              <option value="BA">BA</option>
+              <option value="CE">CE</option>
+              <option value="DF">DF</option>
+              <option value="ES">ES</option>
+              <option value="GO">GO</option>
+              <option value="MA">MA</option>
+              <option value="MT">MT</option>
+              <option value="MS">MS</option>
+              <option value="MG">MG</option>
+              <option value="PA">PA</option>
+              <option value="PB">PB</option>
+              <option value="PR">PR</option>
+              <option value="PE">PE</option>
+              <option value="PI">PI</option>
+              <option value="RJ">RJ</option>
+              <option value="RN">RN</option>
+              <option value="RS">RS</option>
+              <option value="RO">RO</option>
+              <option value="RR">RR</option>
+              <option value="SC">SC</option>
+              <option value="SP">SP</option>
+              <option value="SE">SE</option>
+              <option value="TO">TO</option>
+            </select>
+          </div>
+          <div style="margin-top: 8px" class="col-md-4">
+            <label for="inputBairro" class="form-label subtit">Bairro</label>
+            <input type="bairro" class="form-control" placeholder="Insira seu bairro" id="inputBairro" required="" />
+          </div>
+          <div style="margin-top: 8px" class="col-md-4">
+            <label for="inputComplemento" class="form-label subtit">Complemento</label>
+            <input type="complet" class="form-control" placeholder="Insira o complemento" id="inputComplemento"
+              required="" />
+          </div>
+          <div style="margin-top: 8px" class="col-md-4">
+            <label for="inputNumero" class="form-label subtit">Número</label>
+            <input type="num" class="form-control" placeholder="Insira o número" id="inputNumero" required="" />
+          </div>
+          <div style="margin-top: 8px" class="col-7">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault3" checked />
+              <label class="form-check-label subtit" for="flexRadio2">Dinheiro</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input subtit" type="radio" name="flexRadioDefault2" id="flexRadioDefault4" />
+              <label class="form-check-label subtit" for="flexRadio2">Cartão(Débito)</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault5" />
+              <label class="form-check-label subtit" for="flexRadio2">Cartão(Crédito)</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault2" id="flexRadioDefault6" />
+              <label class="form-check-label subtit" for="flexRadio2">Vale Refeição</label>
+            </div>
+          </div>
+          <div style="margin-top: 8px" class="mb-3">
+            <label for="FormControlTextarea1" class="form-label subtit">Observações</label>
+            <textarea class="form-control" id="FormControlTextarea1" rows="3"
+              placeholder="Insira uma observação caso deseje: "></textarea>
+          </div>
+          <div class="col-12 pb-3">
+            <a href="Enviar.html"
+              class="btn button-primay btn-primary button d-md-inline-block d-block mb-md-0 mb-2 mr-md-2">enviar</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
